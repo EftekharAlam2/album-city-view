@@ -55,8 +55,6 @@ const switchTab = (id) => {
 };
 
 const createPost = (post) => {
-  // post.comments?.user
-  // console.log(post.comments[0].user);
   const image = post.image;
   const userImage = post.userImage;
   const div = document.createElement("article");
